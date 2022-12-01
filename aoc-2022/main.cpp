@@ -22,8 +22,8 @@ int main(int argc, const char * argv[]) {
     
     Day1 day1;
     
-    std::cout << "Day 1, challenge 1: " << day1.solveFirst() << std::endl << std::endl;
-    // std::cout << "Day 1, challenge 2: " << day1.solveSecond() << std::endl << std::endl;
+    // std::cout << "Day 1, challenge 1: " << day1.solveFirst() << std::endl << std::endl;
+    std::cout << "Day 1, challenge 2: " << day1.solveSecond() << std::endl << std::endl;
     
     // Day2 day2;
     // std::cout << "Day 2, challenge 1: " << day2.solveFirst() << std::endl << std::endl;
