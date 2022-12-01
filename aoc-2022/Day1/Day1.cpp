@@ -48,9 +48,7 @@ public:
     
     int solveFirst(){
         this->input1 = loadInput("Day1/input_first.txt");
-        
-        std::cout << "Input 1: " << input1[0] << std::endl;
-        
+                
         int max = 0;
         int tmp_max = 0;
         
@@ -71,7 +69,7 @@ public:
     int solveSecond(){
         this->input2 = loadInput("Day1/input_first.txt");
         
-        std::vector<int> *max = new std::vector<int>(5, 0);
+        std::vector<int> *max = new std::vector<int>(3, 0);
         int tmp_max = 0;
                         
         for(int i = 0; i < input2.size(); i++){
@@ -81,9 +79,8 @@ public:
             
             else{
                 for(int j = 2; j >= 0; j--){
-                    // std::cout << "j: " << j << std::endl;
                     if(tmp_max > max->at(j)) {
-                        max->at(j+1) = max->at(j);
+                        if(j!=2) max->at(j+1) = max->at(j);
                         max->at(j) = tmp_max;
                         // std::cout << "max at " << j << ": " << max->at(j) << std::endl;
                     }
@@ -94,5 +91,4 @@ public:
         
         return max->at(0) + max->at(1) + max->at(2);
     }
-    
 };
