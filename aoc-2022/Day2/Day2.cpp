@@ -1,5 +1,5 @@
 //
-//  Day1.cpp
+//  Day2.cpp
 //  aoc-2022
 //
 //  Created by Sanjin Grahovar Sadiković on 01.12.2022..
@@ -24,21 +24,8 @@ private:
 public:
     Day2(){
         
-// A = Opponent Rock
-// B = Opponent Paper
-// C = Opponent Scissor
-        
-// X = Player Rock
-// Y = Player Paper
-// Z = Player Scissor
-        
-
-        
-//  A   Y
-//  B   X
-//  C   Z
-        
     }
+    
     
     std::vector<std::string> loadInput(std::string inputFile){
         std::vector<std::string> inputList;
@@ -81,7 +68,6 @@ public:
         else return NULL;
     }
     
-    // 1 for Rock, 2 for Paper, and 3 for Scissors
     
     int second_chooseShape(char opponentShape, char result){
         if(opponentShape == 'A' && result == 'X') return 0 + 3;
