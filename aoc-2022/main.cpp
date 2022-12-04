@@ -31,8 +31,8 @@ int main(int argc, const char * argv[]) {
     // std::cout << "Day 2, challenge 1: " << day2.solveSecond() << std::endl << std::endl << std::endl;
     
     Day3 day3;
-    std::cout << "Day 3, challenge 1: " << day3.solveFirst() << std::endl << std::endl;
-    // std::cout << "Day 3, challenge 1: " << day3.solveSecond() << std::endl << std::endl << std::endl;
+    // std::cout << "Day 3, challenge 1: " << day3.solveFirst() << std::endl << std::endl;
+    std::cout << "Day 3, challenge 1: " << day3.solveSecond() << std::endl << std::endl << std::endl;
     
     auto stop = std::chrono::high_resolution_clock::now();
     
