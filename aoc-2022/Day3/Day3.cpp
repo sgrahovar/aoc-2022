@@ -1,5 +1,5 @@
 //
-//  Day2.cpp
+//  Day3.cpp
 //  aoc-2022
 //
 //  Created by Sanjin Grahovar Sadiković on 01.12.2022..
