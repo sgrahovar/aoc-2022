@@ -17,6 +17,7 @@
 #include "Day2/Day2.cpp"
 #include "Day3/Day3.cpp"
 #include "Day4/Day4.cpp"
+#include "Day5/Day5.cpp"
 
 
 int main(int argc, const char * argv[]) {
@@ -35,9 +36,13 @@ int main(int argc, const char * argv[]) {
     // std::cout << "Day 3, challenge 1: " << day3.solveFirst() << std::endl << std::endl;
     // std::cout << "Day 3, challenge 1: " << day3.solveSecond() << std::endl << std::endl << std::endl;
     
-    Day4 day4;
+    // Day4 day4;
     // std::cout << "Day 4, challenge 1: " << day4.solveFirst() << std::endl << std::endl;
-    std::cout << "Day 3, challenge 1: " << day4.solveSecond() << std::endl << std::endl << std::endl;
+    // std::cout << "Day 3, challenge 1: " << day4.solveSecond() << std::endl << std::endl << std::endl;
+    
+    Day5 day5;
+    std::cout << "Day 4, challenge 1: " << day5.solveFirst() << std::endl << std::endl;
+    // std::cout << "Day 3, challenge 1: " << day5.solveSecond() << std::endl << std::endl << std::endl;
     
     auto stop = std::chrono::high_resolution_clock::now();
     
