@@ -101,6 +101,13 @@
 			path = Day5;
 			sourceTree = "<group>";
 		};
+		29B1F6242940AF3F00A5B56E /* Day6 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Day6;
+			sourceTree = "<group>";
+		};
 		29F647AA29385D5C008BFDF6 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +127,7 @@
 		29F647B529385D5C008BFDF6 /* aoc-2022 */ = {
 			isa = PBXGroup;
 			children = (
+				29B1F6242940AF3F00A5B56E /* Day6 */,
 				2967FD62293DB3790042B774 /* Day5 */,
 				2967FD5D293D56830042B774 /* Day4 */,
 				2967FD58293BB2DA0042B774 /* Day3 */,
