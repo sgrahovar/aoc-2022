@@ -11,6 +11,7 @@
 		2967FD5B293BB2F50042B774 /* Day3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2967FD5A293BB2F50042B774 /* Day3.cpp */; };
 		2967FD61293D56970042B774 /* Day4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2967FD5E293D56970042B774 /* Day4.cpp */; };
 		2967FD66293DB39C0042B774 /* Day5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2967FD65293DB39C0042B774 /* Day5.cpp */; };
+		29B1F6282940B3C400A5B56E /* Day6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29B1F6252940B3C400A5B56E /* Day6.cpp */; };
 		29F647B729385D5C008BFDF6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F647B629385D5C008BFDF6 /* main.cpp */; };
 		29F647BF29385DC0008BFDF6 /* Day1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29F647BE29385DC0008BFDF6 /* Day1.cpp */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,9 @@
 		2967FD63293DB39C0042B774 /* input_example.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input_example.txt; sourceTree = "<group>"; };
 		2967FD64293DB39C0042B774 /* input_first.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input_first.txt; sourceTree = "<group>"; };
 		2967FD65293DB39C0042B774 /* Day5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day5.cpp; sourceTree = "<group>"; };
+		29B1F6252940B3C400A5B56E /* Day6.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Day6.cpp; sourceTree = "<group>"; };
+		29B1F6262940B3C400A5B56E /* input_example.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input_example.txt; sourceTree = "<group>"; };
+		29B1F6272940B3C400A5B56E /* input_first.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = input_first.txt; sourceTree = "<group>"; };
 		29C6709129386D2A00F33F3E /* input_first.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input_first.txt; sourceTree = "<group>"; };
 		29C6709229386D4800F33F3E /* input_second.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input_second.txt; sourceTree = "<group>"; };
 		29F647B329385D5C008BFDF6 /* aoc-2022 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "aoc-2022"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +108,9 @@
 		29B1F6242940AF3F00A5B56E /* Day6 */ = {
 			isa = PBXGroup;
 			children = (
+				29B1F6252940B3C400A5B56E /* Day6.cpp */,
+				29B1F6262940B3C400A5B56E /* input_example.txt */,
+				29B1F6272940B3C400A5B56E /* input_first.txt */,
 			);
 			path = Day6;
 			sourceTree = "<group>";
@@ -206,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29B1F6282940B3C400A5B56E /* Day6.cpp in Sources */,
 				2967FD66293DB39C0042B774 /* Day5.cpp in Sources */,
 				2967FD53293A253F0042B774 /* Day2.cpp in Sources */,
 				29F647BF29385DC0008BFDF6 /* Day1.cpp in Sources */,
